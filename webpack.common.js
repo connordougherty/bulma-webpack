@@ -11,7 +11,6 @@ module.exports = {
     plugins: [
         new CleanWebpackPlugin (['dist']),
         new HtmlWebpackPlugin ({
-            title: 'bulma-webpack',
             template: 'src/index.html'
         })
     ]

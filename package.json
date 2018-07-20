@@ -11,7 +11,10 @@
     "Sass",
     "Webpack"
   ],
-  "author": "Connor Dougherty",
+  "contributers": [
+    "Connor Dougherty <connordougherty01@gmail.com>",
+    "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "bulma": "^0.7.1",

@@ -1,4 +1,4 @@
-# Bulma Webpack
+# Bulma webpack
 
 A boilerplate for using [Bulma](https://bulma.io/) with [webpack](https://webpack.js.org/).
 
@@ -8,3 +8,10 @@ A boilerplate for using [Bulma](https://bulma.io/) with [webpack](https://webpac
 npm install bulma-webpack
 ```
 
+## License
+
+Code released under [the MIT license](https://github.com/connordougherty/bulma-webpack/blob/master/LICENSE).
+
+## Acknowledgements
+
+Insired by and based on [Bulma start](https://bulma.io/bulma-start/).

@@ -14,4 +14,4 @@ Code released under [the MIT license](https://github.com/connordougherty/bulma-w
 
 ## Acknowledgements
 
-Insired by and based on [Bulma start](https://bulma.io/bulma-start/).
+Inspired by and based on [Bulma start](https://bulma.io/bulma-start/).

@@ -1,7 +1,7 @@
 {
   "name": "bulma-webpack",
   "version": "1.0.0",
-  "description": "A boilerplate for using Bulma with webpack",
+  "description": "A start package for using Bulma with webpack",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"

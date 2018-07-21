@@ -31,26 +31,54 @@
             <div class="columns">
                 <div class="column is-8-desktop is-offset-2-desktop">
                     <div class="content">
-                    <h3>Try it out!</h3>
-                    <p>
-                        To see if your setup works, follow these steps:
-                    </p>
-                    <ol>
-                        <li>
-                        <p>
-                            <strong>Install</strong> all dependencies:
-                            <br>
-                            <pre><code>npm install</code></pre>
-                        </p>
-                        </li>
-                        <li>
-                        <p>
-                            <strong>Start</strong> webpack-dev-server
-                            <br>
-                            <pre><code>npm start</code></pre>
-                        </p>
-                        </li>
-                    </ol>
+                        <h3>Try it out!</h3>
+                    
+                        <p><strong>Replace</strong> the content in <code>src/styles.scss</code> with:</p>
+
+                        <pre><code>@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";</code></pre>
+
+                        <p><strong>Generate</strong> site with webpack:</p>
+
+                        <pre><code>npm run build</code></pre>
+
+                        <p>To <strong>learn more</strong>, follow these links:</p>
+
+                        <a href="https://bulma.io/" class="button is-primary is-medium has-text-weight-semibold">Bulma homepage</a>
+                        <a href="https://bulma.io/documentation/overview/start/" class="button is-link is-medium has-text-weight-semibold">Documentation</a>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 {
   "name": "bulma-webpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A start package for using Bulma with webpack",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
@@ -11,7 +11,7 @@
     "Sass",
     "Webpack"
   ],
-  "contributers": [
+  "contributors": [
     "Connor Dougherty <connordougherty01@gmail.com>",
     "Jeremy Thomas <bbxdesign@gmail.com> (http://jgthms.com)"
   ],

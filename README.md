@@ -1,11 +1,31 @@
-# Bulma webpack
+# bulma-webpack
 
-An npm package for using [Bulma](https://bulma.io/) with [webpack](https://webpack.js.org/).
+An npm start package for using [Bulma](https://bulma.io/) with [webpack](https://webpack.js.org/).
 
 ## Getting Started
 
+**Install** bulma-webpack
+
 ```
-npm install bulma-webpack
+npm i bulma-webpack
+```
+
+**cd** into bulma-webpack
+
+```
+cd node_modules/bulma-webpack
+```
+
+**Install** dependencies
+
+```
+npm i
+```
+
+**Start** webpack-dev-server
+
+```
+npm start
 ```
 
 ## License

@@ -10,7 +10,7 @@ npm install bulma-webpack
 
 ## License
 
-[MIT](https://github.com/connordougherty/bulma-webpack/blob/master/LICENSE).
+[MIT](https://github.com/connordougherty/bulma-webpack/blob/master/LICENSE)
 
 ## Acknowledgements
 
